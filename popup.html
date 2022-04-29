@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title> Delete Facebook Messages</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <style>
+    body{
+	 width:350px;
+	 height:250px;
+	 margin:0;
+	 padding:0;
+	}
+	h5{
+	 margin:0;
+	 color:white;
+	}
+	.form-control {
+	 font-size:12px;
+	 border: 1px solid #efefef;
+	}
+	label{
+	font-weight:bold;
+	}
+   </style>
+	</head>
+ <body ng-app="myapp" ng-controller="ctrl">
+	<h5 class="text-center"> Delete Facebook Messages </h5>
+	<span>
+	<div  id="aa" style="display:none" >
+    <a href="#" ng-click="delete()" class="btn btn-primary btn-block"  style="font-weight:bold">Delete</a>
+    <a href="#" ng-click="archive()" class="btn btn-default btn-block" style="font-weight:bold; margin-top:10px;">Archive Messages</a>
+	</div>
+	</span>
+	<script src="js/jquery.min.js"> </script>
+	<script src="js/angular.min.js"> </script>
+	<script src="js/popup.js"> </script>
+ </body>
+</html>

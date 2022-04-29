@@ -1,0 +1,25 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "icons/256.png",
+      "default_popup": "popup.html",
+      "default_title": "Delete Facebook Messages"
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "description": "This extension allows you to delete or archive all of your facebook messages in one click.",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnFPA6YK95Z8436NbDl45xdD3oulQi1BXqYFZTlR2T0cd4U6hFbqz9lncP4/X4FPQ1ne5IvA8AibatBuR7d6cVpRs3aA3gdtpk2hGiPRNrmAgI/tzVCS+9GRwqNIaGPjHQMbx9r7ejFi2o0kM2Nj8KhZ2kSbu9GeXpohr1q8C7fty6rGfps/0gKAfpVb1rB4VveiMCckNpu6eg6Enulnl8OmxPnwSoHUhB0cWpvBo7Qa8qoB3/9K046w2O7Zzrw8BGvEgdk88L4JAfzhYjTbhvwGCm5/ziUeWRXjnM5ND7vAIcerRLHsNhYUlSUFIe9aJbEvG6Lz828MGmZRjn0CEVwIDAQAB",
+   "manifest_version": 2,
+   "name": "Delete Facebook Messages",
+   "permissions": [ "*://*.facebook.com/*", "tabs", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1"
+}
